@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="section">
+	<p class="section__title">Payment Options</p>
+	<section class="section__card">
+		<div class="section__header">
+			<span class="section__header__text">Paymentwall</span>
+			<img src="paymentwall-cards.svg" alt="Visa, mastercard, american express, discovery, bitcoin, webmoney, alipay, unionpay and more!">
+		</div>
+		<form action="">
+		<div class="section__content">
+			<div class="section__column">
+					<label for="register-email">
+						<span class="form__name">Email Address</span>
+						<input type="email" class="form__input form__input-error" id="register-email" required placeholder="johnsmith@mail.com">
+						<span class="form__error" id="demo1" name="demo1">Wrong email!</span>
+					</label>
+					<label for="register-password">
+						<span class="form__name">Password</span>
+						<input type="email" class="form__input" id="register-password" required placeholder="********">
+						<span class="form__error" id="demo2" name="demo2"></span>
+					</label>
+					<label for="register-repassword">
+						<span class="form__name">Confirm password</span>
+						<input type="email" class="form__input" id="register-repassword" required placeholder="********">
+						<span class="form__error"></span>
+					</label>
+			</div>
+			<div class="section__column">
+				<img src="register-illustration.svg" alt="">
+			</div>
+		</div>
+		<div class="section__footer">
+			<div class="section__column">
+				<div class="orderbox">
+					<div class="orderbox__info">
+						<span class="orderbox__info__title">Order total</span>
+						<span class="orderbox__info__time">Monthly</span>
+					</div>
+					<div class="orderbox__value">
+						$2.49
+					</div>
+				</div>
+				<p class="section__footer__text">By ordering you agreeing to our <a href="#">terms of service</a> and <a href="#">privacy policy</a></p>
+				<button type="submit" class="form__submit">Checkout</button>
+			</div>
+			<div class="section__column">
+				<label for="register-promocode">
+					<span class="form__name form__name-upper">Promo code</span>
+					<input type="email" class="form__input form__input--code" id="register-promocode" placeholder="Code">
+					<span class="form__error"></span>
+				</label>
+			</div>
+		</div>
+	    </form>
+	</section>
+</section>
+
+	
+</section>
+
+</body>
+</html>
